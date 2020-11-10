@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1552959524043390}
+  m_IsPrefabParent: 1
+--- !u!1 &1552959524043390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4444134555568640}
+  - component: {fileID: 114596136915654918}
+  m_Layer: 0
+  m_Name: Molluska
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4444134555568640
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1552959524043390}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114596136915654918
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1552959524043390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23196c4312d2fb140ace3757e52de2b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animals:
+  - {fileID: 1030566610515152, guid: 838bf49757ff62942a25d78deb1540b0, type: 2}
+  - {fileID: 1268436699211316, guid: 7f9d55a459f7fbe41b0c14f76763fa07, type: 2}
+  - {fileID: 1900103999380812, guid: af87a2d65be1ce446acff594e1831018, type: 2}
+  - {fileID: 1077240276521742, guid: 720266933ff0e594382a9b4abcb4a025, type: 2}
+  - {fileID: 1731242195874714, guid: 22e193fb563e3bd468177c9bdf5ef3bd, type: 2}
+  - {fileID: 1538630764994602, guid: 560b91cb072a9fb44b761717988505b0, type: 2}
+  - {fileID: 1644029486817890, guid: 23d68a02f00abbe4f82e289673ebf454, type: 2}
+  - {fileID: 1621645914995500, guid: 38e6b905b25f207489babdad4f131c87, type: 2}
+  - {fileID: 1669808635750738, guid: ac11b42ac6b5f6f45a9386db30f0ccae, type: 2}
+  name: Mollusca

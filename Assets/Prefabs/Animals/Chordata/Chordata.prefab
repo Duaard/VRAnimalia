@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1333279441118748}
+  m_IsPrefabParent: 1
+--- !u!1 &1333279441118748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4322191182619624}
+  - component: {fileID: 114834670978843150}
+  m_Layer: 0
+  m_Name: Chordata
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4322191182619624
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1333279441118748}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.52040577, y: 4.339099, z: 4.876631}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114834670978843150
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1333279441118748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23196c4312d2fb140ace3757e52de2b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animals:
+  - {fileID: 1707256818348976, guid: fc6a5cf871110874f96ffb30c863d643, type: 2}
+  - {fileID: 1229577333407338, guid: b2dbf21e09bfd0e4c94b8e0ffd1e200e, type: 2}
+  - {fileID: 1067200462394202, guid: 109d0edddcb77d642b5c1eee2c902a5b, type: 2}
+  - {fileID: 1481703054757000, guid: debb5693bda20ff4fb4903a3eb3051b2, type: 2}
+  - {fileID: 1913640941614618, guid: 3689153ff91d5c040b24277d2d6c5911, type: 2}
+  - {fileID: 1967820524580272, guid: f65d60be43a60e943a14d264ff08a467, type: 2}
+  - {fileID: 1728633326118186, guid: 1c8457fb98044274eb45f0a3a20f4e27, type: 2}
+  name: Chordata
+  Enlarge: 0

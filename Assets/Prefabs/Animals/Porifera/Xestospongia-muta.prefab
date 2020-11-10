@@ -1,0 +1,298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1864617238229260}
+  m_IsPrefabParent: 1
+--- !u!1 &1158337934850974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4492847358281110}
+  - component: {fileID: 33132481281306802}
+  - component: {fileID: 23978475615012832}
+  - component: {fileID: 95116744999798264}
+  m_Layer: 0
+  m_Name: Xestospongia-muta
+  m_TagString: xestospongia
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1743208039823546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4788745232394428}
+  - component: {fileID: 33412405178738108}
+  - component: {fileID: 23014679176237728}
+  - component: {fileID: 95716748754640268}
+  m_Layer: 0
+  m_Name: Xestospongia-muta-1
+  m_TagString: xestospongia
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1864617238229260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4399093018173998}
+  - component: {fileID: 136149161397018904}
+  - component: {fileID: 114292361813307616}
+  - component: {fileID: 114479524813033516}
+  - component: {fileID: 114851419733001620}
+  - component: {fileID: 114261170271663526}
+  m_Layer: 0
+  m_Name: Xestospongia-muta
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4399093018173998
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1864617238229260}
+  m_LocalRotation: {x: -0.2879801, y: -0.53084546, z: 0.10108856, w: 0.7906021}
+  m_LocalPosition: {x: -0.11223007, y: -0.7082383, z: -3.9814925}
+  m_LocalScale: {x: 1.9240706, y: 1.6272689, z: 2.2851672}
+  m_Children:
+  - {fileID: 4788745232394428}
+  - {fileID: 4492847358281110}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -22.144001, y: 54.848003, z: -8.726001}
+--- !u!4 &4492847358281110
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158337934850974}
+  m_LocalRotation: {x: -0.7040438, y: 0.0034319158, z: -0.00076625857, w: 0.71014786}
+  m_LocalPosition: {x: 0.21, y: 2.34, z: 0.6}
+  m_LocalScale: {x: 1.8996695, y: 1.8996698, z: 2.163611}
+  m_Children: []
+  m_Father: {fileID: 4399093018173998}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -89.4, y: 34.627003, z: -34.411003}
+--- !u!4 &4788745232394428
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1743208039823546}
+  m_LocalRotation: {x: -0.5204714, y: -0.4786539, z: -0.4786539, w: 0.5204714}
+  m_LocalPosition: {x: 0, y: 1.94, z: -0}
+  m_LocalScale: {x: 2.228154, y: 2.228154, z: 2.5377352}
+  m_Children: []
+  m_Father: {fileID: 4399093018173998}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -85.207}
+--- !u!23 &23014679176237728
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1743208039823546}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 3
+  m_Materials:
+  - {fileID: 2100000, guid: a4d7c9f4d47e09147a1531c17ca7527e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23978475615012832
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158337934850974}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a6fa9cf5d10edb94eb04853e03e68e93, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33132481281306802
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158337934850974}
+  m_Mesh: {fileID: 4300000, guid: 35ac33679c3145349b0bfbb5ecd4f38a, type: 3}
+--- !u!33 &33412405178738108
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1743208039823546}
+  m_Mesh: {fileID: 4300000, guid: 35ac33679c3145349b0bfbb5ecd4f38a, type: 3}
+--- !u!95 &95116744999798264
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158337934850974}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 35ac33679c3145349b0bfbb5ecd4f38a, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!95 &95716748754640268
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1743208039823546}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 35ac33679c3145349b0bfbb5ecd4f38a, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114261170271663526
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1864617238229260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3874ddde4add6b46bdb3592de413e08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114292361813307616
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1864617238229260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fea6f8eea666334aaf9869ad8f7bcda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114479524813033516
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1864617238229260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf2a9e24cbfc2f4c8dc2b370b88b768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsGrounded: 1
+  IsMoving: 0
+  Sound: {fileID: 0}
+  Name: Giant barrel sponge
+  Image: {fileID: 2800000, guid: f5535cf0b5f499d41b5df76767683616, type: 3}
+  Tag: xestospongia
+  anim: {fileID: 0}
+  info: "scientific name: Xestospongia-muta\ncommon name: Giant barrel sponge\nsize:
+    0.4in - 118in\ndiet: Omnivore\nhabitat: tropical coastal locations, salt water
+    or marine\nprey: Bacteria, Phytoplankton, Nutrients In Water\npredator: Fish,
+    Turtles. Crustaceans, nudibranchs, and echinoids\nlifespan: more than 2000 years\nreproduction:
+    Possess both male and female sex organs \nbehavior: The giant barrel sponge is
+    a non-moving animal, The filtration abilities and longevity of these animals make
+    them a dominant competitor in the benthic community\n"
+--- !u!114 &114851419733001620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1864617238229260}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a2b1c96f6c55a45b7f7dea7f6ceb17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SelectionRadial: {fileID: 0}
+  outlineMaterial: {fileID: 2100000, guid: de422837e65a227499d87f874be685b5, type: 2}
+  originalTexture: {fileID: 0}
+  m_Renderer: {fileID: 23014679176237728}
+  IsInfo: 0
+--- !u!136 &136149161397018904
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1864617238229260}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1.65
+  m_Height: 4.49
+  m_Direction: 1
+  m_Center: {x: 0, y: 2, z: 0.58}

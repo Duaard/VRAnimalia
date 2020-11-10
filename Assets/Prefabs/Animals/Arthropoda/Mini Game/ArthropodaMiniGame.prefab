@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1028625229076686}
+  m_IsPrefabParent: 1
+--- !u!1 &1028625229076686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4265070757240104}
+  - component: {fileID: 114583878048903870}
+  m_Layer: 0
+  m_Name: ArthropodaMiniGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4265070757240104
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028625229076686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.52040577, y: 4.339099, z: 4.876631}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114583878048903870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1028625229076686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23196c4312d2fb140ace3757e52de2b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animals:
+  - {fileID: 1814764077644960, guid: 649416f88f1dbf940a5e4ebb59da3b09, type: 2}
+  - {fileID: 1789247248994842, guid: 39bb973c8ba0ad84fa36509b0a69fa23, type: 2}
+  - {fileID: 1603887352553730, guid: 5ae060ca639a4fb448e91c823509fdda, type: 2}
+  - {fileID: 1944223195515182, guid: 23ddcc57c6bab9e49970cbdd4cbfa505, type: 2}
+  - {fileID: 1422256225618762, guid: de8b4d60ccf30e64b994ac969b2a9891, type: 2}
+  name: Anthropoda

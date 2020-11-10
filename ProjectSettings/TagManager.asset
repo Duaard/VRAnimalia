@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - axinella
+  - xestospongia
+  - tube
+  - pelagia
+  - giantpanda
+  - brownbear
+  - rhino
+  - cake
+  - brittle
+  - phyllorhiza
+  - stomolophus
+  - cuttlefish
+  - hyolitha
+  - brachypelmasmith
+  - herculesbeetle
+  - Fire
+  - goldeneagle
+  - choeropsis
+  - goliath
+  - brachypelma
+  - path
+  - turbellaria
+  - tapeworm
+  - fluke
+  - earthworm
+  - giant
+  - echiura
+  - leech
+  - polychaete
+  - tarantula
+  - bipalium
+  - neobenedenia
+  - secer
+  - aden
+  - GiantPandaPath
+  - BrownBearPath
+  - BirdPath
+  - HippoPath
+  - RhinoPath
+  - artic
+  - greenlandshark
+  - SharkPath
+  - turtle
+  - TurtlePath
+  - coquina
+  - elysia
+  - jingle
+  - adorabilis
+  - quahog
+  - scallop
+  - agelas
+  - amphimedon
+  - niger
+  - callyspongia
+  - cliona
+  - ircinia
+  - asterias
+  - asterina
+  - patiri
+  - actiniidae
+  - carybdea
+  - branchiobdellida
+  - chaetogaster
+  - stylaria
+  - hydra
+  - hexactinellida
+  - homoscleromorpha
+  - spongilla
+  - tedania
+  - stag beetle
+  - horsehoe
+  - HorseShoePath
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Terrain
+  - InfoCanvas
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: InfoCanvas
+    uniqueID: 1046075115
+    locked: 0
